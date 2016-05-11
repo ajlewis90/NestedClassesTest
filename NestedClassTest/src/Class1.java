@@ -2,10 +2,10 @@
 public class Class1 {
 	
 	public void printStatement(){
-	System.out.println("Hello World");
+	System.out.println("HELLO WORLD");
 	
-	System.out.println("Hello World again");
+	System.out.println("HELLO WORLD AGAIN");
 	
-	System.out.println("Hello World again 2");
+	System.out.println("HELLO WORLD AGAIN 2 - THIS IS FIXED FOR CEO!");
 	}
 }
