@@ -4,6 +4,9 @@ public class MyOuter1 {
 	private int x = 1;
 	private static int y = 2;
 	
+	
+	
+	
 	public void f(){
 		MyNested1 b = new MyNested1();
 		System.out.println("b.x=" + b.x + ",  + b.y = " + b.y);
@@ -33,5 +36,8 @@ public class MyOuter1 {
 		MyOuter1 a1 = new MyOuter1();
 		a1.f();
 		MyOuter1.MyNested1 b1 = new MyOuter1.MyNested1();
+		
+		Class1 c1 = new Class1();
+		c1.printStatement();
 	}
 }
