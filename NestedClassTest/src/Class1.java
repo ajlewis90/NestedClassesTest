@@ -11,7 +11,7 @@ public class Class1 {
 		System.out.println("Hello World again 2");
 
 		for (int i = 0; i < data.length; i++){
-			System.out.println("Hello World i value is: " + i);
+			System.out.println("Hello World i value is: " + data[i]);
 		}
 	}
 }
